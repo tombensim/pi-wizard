@@ -58,6 +58,12 @@ After installation, run the built-in demo:
 /wizard
 ```
 
+## Demo
+
+Team onboarding flow preview:
+
+![Team onboarding demo](docs/assets/team-onboarding.gif)
+
 ## Public API
 
 ```typescript
@@ -207,6 +213,11 @@ See [SECURITY.md](SECURITY.md) for reporting guidance.
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## GitHub workflow
+
+- install guide: [PI_EXTENSION_INSTALL.md](PI_EXTENSION_INSTALL.md)
+- branching and PR rules: [docs/BRANCHING.md](docs/BRANCHING.md)
 
 ## License
 

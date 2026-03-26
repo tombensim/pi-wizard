@@ -3,6 +3,17 @@
 - what changed
 - why it changed
 
+## Test plan
+
+- what you ran
+- what you did not run
+
+## Risk
+
+- user-facing risk
+- operational risk
+- rollback plan if relevant
+
 ## Checklist
 
 - [ ] docs updated if behavior changed

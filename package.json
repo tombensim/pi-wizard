@@ -53,6 +53,14 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tombensim/pi-wizard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tombensim/pi-wizard/issues"
+  },
+  "homepage": "https://github.com/tombensim/pi-wizard#readme",
   "author": "tombensim",
   "license": "MIT"
 }
