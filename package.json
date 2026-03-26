@@ -1,0 +1,58 @@
+{
+  "name": "pi-wizard",
+  "version": "0.1.0",
+  "description": "Interactive multi-step wizard framework and Pi extension for guided workflows",
+  "type": "commonjs",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "require": "./dist/src/index.js"
+    }
+  },
+  "keywords": [
+    "pi",
+    "wizard",
+    "tui",
+    "workflow",
+    "agent",
+    "cli"
+  ],
+  "files": [
+    ".pi/",
+    "src/",
+    "dist/",
+    "examples/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "pi": {
+    "extensions": [
+      ".pi/extensions/wizard"
+    ]
+  },
+  "dependencies": {
+    "@sinclair/typebox": "*"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "tombensim",
+  "license": "MIT"
+}

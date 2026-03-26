@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: How can we reproduce it?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node version
+  - type: input
+    id: pi
+    attributes:
+      label: Pi version
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
